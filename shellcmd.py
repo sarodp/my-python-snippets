@@ -35,7 +35,7 @@ def shellcmd(xcommand):
 #==============================================================
 def test():
     #--input your command
-    xcmd = raw_input('>> type your command [ctrl+z to exit]: ')
+    xcmd = raw_input('>> type your command [Ctrl+C to exit]: ')
 
     #--$ xcmd
     xrtn = shellcmd(xcmd)
